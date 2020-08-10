@@ -1,0 +1,58 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  font-family: 'Heebo', sans-serif;
+  font-weight: medium
+}
+
+.logo {
+  display: flex;
+  width: 105px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 25px;
+}
+
+.app1{
+  display: flex;
+  width: 120px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5px;
+  height: 24px;
+  border-radius: 16px;
+  color: #24EFA6;
+  border: 1px solid #24EFA6;
+}
+.app2{
+  display: flex;
+  width: 118px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5px;
+  height: 24px;
+  border-radius: 16px;
+  border: 1px solid #2B90FB;
+  color:#2B90FB;
+}
+.app3{
+  height: 12px;
+  display: flex;
+  width: 118px;
+  align-items:center;
+  padding: 0 5px;
+  height: 24px;
+  border-radius: 16px;
+  border: 1px solid #FECD38;
+  color:#FECD38;
+}
+.app3-img{
+  margin: 0 10px 0 0;
+}
+.ant-menu-item-only-child {
+ padding: 0
+}
