@@ -1,28 +1,25 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
 import MainSider from './components/MainSider'
 import HeaderTabs from './components/HeaderTabs'
 import {
-  AppstoreOutlined,
-  MenuUnfoldOutlined,
-  MenuFoldOutlined,
   PieChartOutlined,
   DesktopOutlined,
   ContainerOutlined,
   MailOutlined,
 } from "@ant-design/icons";
 
-import { Layout, Menu, Button } from "antd";
+import { Layout, Menu} from "antd";
 
 const { SubMenu } = Menu;
 const { Header, Content, Sider } = Layout;
 
 const App = () => {
-  const [collapsed, setCollapsed] = useState(false);
+  // const [collapsed, setCollapsed] = useState(false);
 
-  const toggleCollapsed = () => {
-    setCollapsed(!collapsed);
-  };
+  // const toggleCollapsed = () => {
+  //   setCollapsed(!collapsed);
+  // };
 
   return (
     <div className="App">
@@ -52,7 +49,7 @@ const App = () => {
                     defaultOpenKeys={["sub1"]}
                     mode="inline"
                     theme="dark"
-                    inlineCollapsed={collapsed}
+                    // inlineCollapsed={collapsed}
                   >
                     <Menu.Item key="1" icon={<PieChartOutlined />}>
                       Betty Ice
